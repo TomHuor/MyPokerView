@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="PokerView">
+        <attr name="SwipeFlingStyle" format="reference" />
+        <attr name="rotation_degrees" format="float" />
+        <attr name="max_visible" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="Theme">
+        <attr name="circleImageViewStyle" format="reference" />
+    </declare-styleable>
+    <!-- 自定义圆角ImageView -->
+    <declare-styleable name="CircleImageView">
+        <attr name="circle" format="boolean" />
+        <attr name="leftTopRadius" format="dimension" />
+        <attr name="rightTopRadius" format="dimension" />
+        <attr name="leftBottomRadius" format="dimension" />
+        <attr name="rightBottomRadius" format="dimension" />
+        <attr name="radius" format="dimension" />
+    </declare-styleable>
+
+</resources>
